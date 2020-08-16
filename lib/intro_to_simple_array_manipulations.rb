@@ -7,7 +7,7 @@ def using_insert(arr, element)
 end
 
 def using_uniq(arr)
-  arr.unique
+  arr.uniq!
 end
 
 def using_delete(arr, str)
